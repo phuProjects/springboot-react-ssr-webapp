@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #0088ff, #8c2dff, #ff2b87dd, #8338ec);
+    background-size: 300% 300%; 
+    animation: gradientAnimation 7s ease-in-out infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

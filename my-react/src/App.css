@@ -1,0 +1,224 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 90px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 350;
+    margin-right: 50px;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline ;
+}
+
+.logo{
+    font-size: 45px;
+    display: inline-block;
+    margin-right: 50px;
+    display: inline;
+    letter-spacing: -2px;
+}
+/*Hero section Starts */
+.hero-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: -100px;
+  }
+
+.hero-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 10px 0 15px;
+    font-weight: 700;
+  }
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+
+.cta-button {
+    background-color: #ff006e;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.cta-button:hover {
+    background-color: #ff4d6d;
+  }
+/*Hero section ends */
+
+/*About Page starts */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+.about-page {
+    background: linear-gradient(135deg, #3a86ff, #8338ec);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.about-page h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+.about-page p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px;
+}
+/*About Page end */
+
+/*Contact Page Start */
+
+.contact-page {
+    background: linear-gradient(135deg, #3a86ff, #8338ec);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-page input,
+.contact-page textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-page button {
+    background-color: #ff2b87;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-page button:hover {
+    background-color: #ff0055;
+}
+/*Contact Page End */
+
+/*Login Page Start */
+
+.container-page {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 75vh; 
+}
+
+.login-page {
+    background: linear-gradient(135deg, #3a86ff, #8338ec); /* Gradient background */
+    padding: 40px; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    max-width: 400px; 
+    width: 100%; 
+}
+
+h1 {
+    color: white; /* White color for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+form {
+    display: flex; /* Enable flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+input {
+    padding: 10px; 
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff2b87;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #e02476; /* Darker shade on hover */
+}
+
+/*Login Page End */
+
